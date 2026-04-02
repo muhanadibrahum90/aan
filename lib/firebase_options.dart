@@ -53,20 +53,22 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyAGTo2KUcsmTKu8VXfejKBiPiVtfYYeivY',
     appId: '1:609212195127:android:fd8ccbac2babff8dfc7ab2',
     messagingSenderId: '609212195127',
-    projectId: 'aan-app-71294',
-    databaseURL: 'https://aan-app-71294-default-rtdb.firebaseio.com',
-    storageBucket: 'aan-app-71294.firebasestorage.app',
+    projectId: 'an-app-71294',
+    databaseURL: 'https://an-app-71294-default-rtdb.firebaseio.com',
+    storageBucket: 'an-app-71294.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCs77rRLoPynONaNkiOxvYBqk0mntgkmAE',
     appId: '1:609212195127:ios:576aaf269ef317bdfc7ab2',
     messagingSenderId: '609212195127',
-    projectId: 'aan-app-71294',
-    databaseURL: 'https://aan-app-71294-default-rtdb.firebaseio.com',
-    storageBucket: 'aan-app-71294.firebasestorage.app',
-    androidClientId: '609212195127-1mo96ih9fgdogsm8fsfv47uo9css0kec.apps.googleusercontent.com',
-    iosClientId: '609212195127-cnmjgakbcopbbln7gt0n2u0f1t56vjc0.apps.googleusercontent.com',
+    projectId: 'an-app-71294',
+    databaseURL: 'https://an-app-71294-default-rtdb.firebaseio.com',
+    storageBucket: 'an-app-71294.firebasestorage.app',
+    androidClientId:
+        '609212195127-1mo96ih9fgdogsm8fsfv47uo9css0kec.apps.googleusercontent.com',
+    iosClientId:
+        '609212195127-cnmjgakbcopbbln7gt0n2u0f1t56vjc0.apps.googleusercontent.com',
     iosBundleId: 'com.app.an',
   );
 }

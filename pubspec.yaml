@@ -3,13 +3,15 @@ description: "A new Flutter project."
 
 publish_to: 'none'
 
-
 version: 1.0.0+1
 
 environment:
   sdk: ^3.11.1
 
 dependencies:
+  flutter:
+    sdk: flutter
+
   flutter_localizations:
     sdk: flutter
 
@@ -33,28 +35,32 @@ dependencies:
   flutter_local_notifications: ^17.0.0
   cloud_functions: ^6.0.7
   url_launcher: ^6.2.5
-  google_mobile_ads: ^5.1.0
-
-
-
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-
   flutter_lints: ^6.0.0
-  flutter_launcher_icons: "^0.13.1"
-  flutter_native_splash: "^2.4.0"
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter_launcher_icons:
+  android: "logo_v1"
+  ios: true
+  image_path: "assets/images/logo_v1.png"
+  adaptive_icon_background: "#0F0E17"
+  adaptive_icon_foreground: "assets/images/logo_v1.png"
+
+flutter_native_splash:
+  color: "#0F0E17"
+  image: assets/images/logo_v1.png
+  android_12:
+    image: assets/images/logo_v1.png
+    color: "#0F0E17"
 
 flutter:
+  uses-material-design: true
 
   assets:
     - assets/icons/
     - assets/images/
     - assets/animations/
-
-  uses-material-design: true
-
-
-

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-// import '../auth/register_page.dart';
-// import '../auth/login_page.dart';
+import '../auth/register_page.dart';
+import '../auth/login_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -79,12 +79,12 @@ class WelcomePage extends StatelessWidget {
                         height: 52,
                         child: ElevatedButton(
                           onPressed: () {
-                            // Navigator.push(
-                            //   context,
-                            //   MaterialPageRoute(
-                            //     builder: (_) => const RegisterPage(),
-                            //   ),
-                            // );
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => const RegisterPage(),
+                              ),
+                            );
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: const Color.fromARGB(255, 238, 238, 238),
@@ -110,10 +110,10 @@ class WelcomePage extends StatelessWidget {
                         height: 52,
                         child: OutlinedButton(
                           onPressed: () {
-                            // Navigator.push(
-                            //   context,
-                            //   MaterialPageRoute(builder: (_) => const LoginPage()),
-                            // );
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (_) => const LoginPage()),
+                            );
                           },
                           style: OutlinedButton.styleFrom(
                             backgroundColor: const Color(0xFF0F0E17),

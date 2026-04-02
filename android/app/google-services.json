@@ -1,9 +1,9 @@
 {
   "project_info": {
     "project_number": "609212195127",
-    "firebase_url": "https://aan-app-71294-default-rtdb.firebaseio.com",
-    "project_id": "aan-app-71294",
-    "storage_bucket": "aan-app-71294.firebasestorage.app"
+    "firebase_url": "https://an-app-71294-default-rtdb.firebaseio.com",
+    "project_id": "an-app-71294",
+    "storage_bucket": "an-app-71294.firebasestorage.app"
   },
   "client": [
     {
@@ -43,7 +43,7 @@
               "client_id": "609212195127-3h4ihbregsj4389rhmne4h1d81nmj594.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.aan.app"
+                "bundle_id": "com.an.app"
               }
             }
           ]
